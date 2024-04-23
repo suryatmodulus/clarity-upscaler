@@ -290,10 +290,6 @@ class Predictor(BasePredictor):
             
             if not first_iteration:
                 creativity = creativity * 0.8
-                tiling_width = tiling_width + 16
-                tiling_width = max(256, tiling_width)
-                tiling_height = tiling_height + 16
-                tiling_height = max(256, tiling_height)
                 
             first_iteration = False
 
